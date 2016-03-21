@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments;
+package com.andridlearning.amit_gupta.fragments.activities;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -10,15 +10,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.andridlearning.amit_gupta.fragments.R;
+
 /**
  * This example shows how you can use a Fragment to easily propagate state
  * (such as threads) across activity instances when an activity needs to be
  * restarted due to, for example, a configuration change.  This is a lot
  * easier than using the raw Activity.onRetainNonConfiguratinInstance() API.
  */
-public class RetainedFragmentExample extends Activity {   //OUR Activity
+public class RetainedFragmentExample extends Activity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {   //in onCreate--add the UI Fragment UiFragment
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // First time init, create the UI.
@@ -198,6 +200,7 @@ public class RetainedFragmentExample extends Activity {   //OUR Activity
 
             super.onDetach();
         }
+
 
         /**
          * API for our UI to restart the progress thread.

@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.andridlearning.amit_gupta.fragments.dynamicFragments.DynamicFragmentExampleActivity">
+    tools:context=".activities.DynamicFragmentExampleActivity">
 
     <TextView android:text="Dynamically add and remove fragments using add(), replace() and remove() methods of fragment transaction" android:layout_width="wrap_content"
         android:id="@+id/text"

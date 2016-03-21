@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments.dynamicFragments;
+package com.andridlearning.amit_gupta.fragments.activities.fragments;
 
 import android.app.Fragment;
 import android.graphics.Color;
@@ -12,13 +12,13 @@ import com.andridlearning.amit_gupta.fragments.R;
 /**
  * Created by Amit_Gupta on 9/1/15.
  */
-public class Fragment1 extends Fragment {
+public class DynamicFragment3 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //return super.onCreateView(inflater, container, savedInstanceState);
-        View v =  inflater.inflate(R.layout.dynamic_fragment1,container,false);
-        v.setBackgroundColor(Color.YELLOW);
+        View v =  inflater.inflate(R.layout.dynamic_fragment3,container,false);
+        v.setBackgroundColor(Color.GREEN);
         return v;
     }
 }

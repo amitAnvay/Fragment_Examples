@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments.fragmentCommunication;
+package com.andridlearning.amit_gupta.fragments.activities.fragments.fragmentCommunication;
 
 import android.app.Activity;
 import android.app.Fragment;

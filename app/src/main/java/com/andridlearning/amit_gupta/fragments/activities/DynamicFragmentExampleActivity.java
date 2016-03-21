@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments.dynamicFragments;
+package com.andridlearning.amit_gupta.fragments.activities;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -10,6 +10,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.andridlearning.amit_gupta.fragments.R;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.DynamicFragment1;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.DynamicFragment2;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.DynamicFragment3;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.DynamicFragment4;
 
 public class DynamicFragmentExampleActivity extends Activity {
 
@@ -24,7 +28,7 @@ public class DynamicFragmentExampleActivity extends Activity {
             }
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.add(R.id._placeholder1, new Fragment1());
+            ft.add(R.id._placeholder1, new DynamicFragment1());
 //        ft.commit();
             //ft.replace(R.id._placeholder2, new Fragment2());
             ft.commit();
@@ -36,9 +40,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder1);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder1, new Fragment2(), "TAG");
+                        ft.replace(R.id._placeholder1, new DynamicFragment2(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder1, new Fragment2(), "TAG");
+                        ft.add(R.id._placeholder1, new DynamicFragment2(), "TAG");
                     }
                     ft.commit();
                 }
@@ -50,9 +54,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder2);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder2, new Fragment2(), "TAG");
+                        ft.replace(R.id._placeholder2, new DynamicFragment2(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder2, new Fragment2(), "TAG");
+                        ft.add(R.id._placeholder2, new DynamicFragment2(), "TAG");
                     }
                     ft.commit();
                 }
@@ -64,9 +68,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder1);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder1, new Fragment3(), "TAG");
+                        ft.replace(R.id._placeholder1, new DynamicFragment3(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder1, new Fragment3(), "TAG");
+                        ft.add(R.id._placeholder1, new DynamicFragment3(), "TAG");
                     }
                     ft.commit();
                 }
@@ -78,9 +82,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder2);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder2, new Fragment3(), "TAG");
+                        ft.replace(R.id._placeholder2, new DynamicFragment3(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder2, new Fragment3(), "TAG");
+                        ft.add(R.id._placeholder2, new DynamicFragment3(), "TAG");
                     }
                     ft.commit();
                 }
@@ -93,9 +97,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder1);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder1, new Fragment4(), "TAG");
+                        ft.replace(R.id._placeholder1, new DynamicFragment4(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder1, new Fragment4(), "TAG");
+                        ft.add(R.id._placeholder1, new DynamicFragment4(), "TAG");
                     }
                     ft.commit();
                 }
@@ -108,9 +112,9 @@ public class DynamicFragmentExampleActivity extends Activity {
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     Fragment fragment = getFragmentManager().findFragmentById(R.id._placeholder2);
                     if(fragment != null) {
-                        ft.replace(R.id._placeholder2, new Fragment4(), "TAG");
+                        ft.replace(R.id._placeholder2, new DynamicFragment4(), "TAG");
                     }else{
-                        ft.add(R.id._placeholder2, new Fragment4(), "TAG");
+                        ft.add(R.id._placeholder2, new DynamicFragment4(), "TAG");
                     }
                     ft.commit();
                 }

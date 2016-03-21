@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments.fragmentCommunication;
+package com.andridlearning.amit_gupta.fragments.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.andridlearning.amit_gupta.fragments.R;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.fragmentCommunication.Fragment1;
+import com.andridlearning.amit_gupta.fragments.activities.fragments.fragmentCommunication.Fragment2;
 
 public class FragmentCommunication extends Activity implements Fragment1.CommunicationListener, Fragment2.CommunicationListener {
 

@@ -1,4 +1,4 @@
-package com.andridlearning.amit_gupta.fragments;
+package com.andridlearning.amit_gupta.fragments.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,8 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.andridlearning.amit_gupta.fragments.dynamicFragments.DynamicFragmentExampleActivity;
-import com.andridlearning.amit_gupta.fragments.fragmentCommunication.FragmentCommunication;
+import com.andridlearning.amit_gupta.fragments.R;
 
 public class MainActivity extends Activity {
 

@@ -5,3 +5,6 @@
 - Replace Fragment dynamically
 - Fragment to Fragment communication via the Activity
 - Retained Fragment example which retains its state on configuration changes
+
+
+![Alt text](/screenshots/output.gif?raw=true "Home Screen")

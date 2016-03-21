@@ -3,9 +3,10 @@
 
     <string name="hello_world">Fragment Examples</string>
     <string name="action_settings">Settings</string>
-        <string name="fragment_retain_instance_msg">Example of Retained Fragment, which is retained on Configuration change. Change device orrientation to test</string>
+    <string name="fragment_retain_instance_msg">Example of Retained Fragment, which is retained on Configuration change. Change device orrientation to test</string>
     <string name="restart">Restart</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_fragment_communication">FragmentCommunication</string>
     <string name="title_activity_dynamic_fragment_example">DynamicFragmentExampleActivity</string>
+    <string name="retained_fragment">Retained Fragment</string>
 </resources>

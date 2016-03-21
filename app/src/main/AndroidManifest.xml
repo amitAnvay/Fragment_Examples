@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RetainedFragmentExample" />
+        <activity android:name=".activities.RetainedFragmentExample"
+            android:label="@string/retained_fragment" />
         <activity
             android:name=".activities.FragmentCommunication"
             android:label="@string/title_activity_fragment_communication" >

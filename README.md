@@ -7,4 +7,4 @@
 - Retained Fragment example which retains its state on configuration changes
 
 
-![Alt text](/raw/output.gif?raw=true "Home Screen")
+![Alt text](/screenshots/output.gif?raw=true "Home Screen")
